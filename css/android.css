@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700|Titillium+Web');
+@import url('https://fonts.googleapis.com/css?family=Muli:400,400i,600|PT+Sans:400,700|Titillium+Web');
+@import url('https://fonts.googleapis.com/css?family=Muli:400,400i,600|PT+Sans:400,700|Titillium+Web|Ubuntu+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow:700');
+
+*{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+body{
+	background: white;
+	width: 100%;
+	height: 100%;
+	bottom-overflow:hidden;
+}
+h1{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 35px;
+	line-height: 50px;
+	text-align: center;
+}
+h2{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 25px;
+}
+h3{
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+p{
+	font: 16px Muli;
+}
+a{
+	color: blue;
+	font-family: 'Archivo Narrow', sans-serif;
+	color: gray;
+	text-decoration: none;
+}
+a:active{
+	color: red;
+}
+header{
+	position: sticky;
+	width: 100%;
+	height: auto;
+	background-color: black;
+	top: 0px;
+	left: 0px;
+	overflow: hidden;
+	z-index: 100;
+	opacity: 0.9;
+}
+
+
+#logo{
+	float: left;
+	width: 25%;
+	height: 50px;
+	text-align: center;
+	overflow: hidden;
+	padding-top: 10px;
+}
+nav{
+	float: right;
+	margin-right: 50px;
+	padding: 15px 40px 0px 2px;
+}
+ul{
+	list-style-type: none;
+}
+nav ul li{
+	float: left;
+	display: inline-block;
+	margin-left: 30px;
+	padding: 0px 10px 19px 8px;
+}
+nav ul li:hover{
+	border-bottom: 4px solid #20bf6b;
+}
+#main-page{
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+}
+#box1{
+	background-image: url(../Images/slide01.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 800px;
+	margin: 0 auto;
+}
+#box1text{
+	position: absolute;
+	padding: 0px 2px;
+	margin: 130px auto; 
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+#box2{
+	background: white;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: auto;
+	height: 550px;
+	overflow: hidden;
+}
+#box2text{
+	position: absolute;
+	padding-top: 50px;
+	margin: 0px auto; 
+	width: 100%;
+	height: auto;
+	text-align: center;
+
+}
+#box2text section{
+	float: right;
+	margin-left: 30px;
+	height: 398px;
+	margin-top: 50px;
+	overflow: hidden;
+}
+#box3{
+	background-image: url(../Images/wear.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: auto;
+	height: 800px;
+	margin: 0 auto;
+}
+#box4{
+	background: url(../Images/back1.jpg);
+	background-size: 100%;
+	background-attachment: fixed;
+	width: auto;
+	height: auto;
+	margin: 0 auto;
+	overflow: auto;
+}
+#box4text{
+	float: left;
+	height: auto;
+	max-width: 60%;
+	text-align: left;
+	margin-left: 250px;
+}
+#box5{
+	background-image: url(../Images/devices.jpg);
+	background-repeat: no-repeat;
+	width: auto;
+	height: 500px;
+	margin: 0 auto;
+}
+#box5text{
+	height: auto;
+	width: 100%;
+	margin: 0px auto;
+}
+#box6{
+	width: 100%;
+	overflow: hidden;
+}
+#inner-box6{
+	height: auto;
+	width: 1000px;
+	margin: 0px auto;
+	overflow: hidden;
+}
+#inner-box6 section{
+	float: left;
+	border-width: 1px;
+	border-style: outset;
+	border-radius: 5px;
+	height: 490px;
+	width: 20%;
+	margin-left: 4%;
+	overflow: hidden;
+	margin-bottom: 2%;
+}
+.reset{
+	display: none;
+	clear: right;
+}
+footer{
+    width: 100%;
+    height: 80px;
+    background: rgba(44, 62, 80,1.0);
+    font-family: 'Lato', sans-serif;
+    color: white;
+    overflow: hidden;
+
+}
+#details, #links{
+    float: left;
+    margin-left: 40px;
+    line-height: 30px;    
+    padding-top: 15px;
+}
+#links li{
+    display: inline-block;
+    margin-right: 10px;
+}
+#linkimg{
+    position: relative;
+    left: 200px;
+}
+#copyright{
+    position: relative;
+    float: right;
+    top: 25px;
+    padding-right: 15px;
+    font-size: 13pt;
+    word-spacing: 1px;
+    letter-spacing: 0.5px;
+}
+.sharelinks:hover{
+    height: 50px;
+}
+#backtotop{
+	position: relative;
+	top: 560px;
+	left: 1250px;
+	font: 30px Muli;
+	width: 50px;
+
+}
+
